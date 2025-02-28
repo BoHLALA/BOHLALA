@@ -45,14 +45,14 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; [ -f $MY_TMP_FILE2 ]; [ -f $MY_TMP
 	echo ''
 	tar -xzvf $MY_TMP_FILE -C /
 	tar -xzvf $MY_TMP_FILE1 -C /
-  tar -xzvf $MY_TMP_FILE2 -C /
-  tar -xzvf $MY_TMP_FILE3 -C /
+ 	tar -xzvf $MY_TMP_FILE2 -C /
+  	tar -xzvf $MY_TMP_FILE3 -C /
 	MY_RESULT=$?
 
 	rm -f $MY_TMP_FILE > /dev/null 2>&1
 	rm -f $MY_TMP_FILE1 > /dev/null 2>&1
-  rm -f $MY_TMP_FILE2 > /dev/null 2>&1
-  rm -f $MY_TMP_FILE3 > /dev/null 2>&1
+ 	rm -f $MY_TMP_FILE2 > /dev/null 2>&1
+  	rm -f $MY_TMP_FILE3 > /dev/null 2>&1
 
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
