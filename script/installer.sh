@@ -8,7 +8,7 @@ description="BoHLALA" !!!
 #########################################################
 PACKAGE_DIR='BOHLALA/main'
 MY_FILE="BoHLALA_FHD.tar.gz"
-MY_FILE1="BoHLALA_FHD.tar.gz"
+MY_FILE1="BO_HLALA_skin_V2.2.tar.gz"
 MY_FILE2="addons1.tar.gz"
 MY_FILE3="addons2.tar.gz"
 #########################################################
